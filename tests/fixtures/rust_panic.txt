@@ -1,0 +1,9 @@
+thread 'main' panicked at 'index out of bounds: the len is 3 but the index is 5', src/main.rs:42:5
+stack backtrace:
+   0: rust_begin_unwind
+             at /rustc/stable/library/std/src/panicking.rs:575:5
+   1: core::panicking::panic_fmt
+             at /rustc/stable/library/core/src/panicking.rs:64:14
+   2: panic_pretty::process_data (src/main.rs:42:5)
+   3: panic_pretty::main (src/main.rs:15:5)
+   4: core::ops::function::FnOnce::call_once (core/ops/function.rs:250:5)

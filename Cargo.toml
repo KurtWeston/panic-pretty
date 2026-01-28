@@ -1,0 +1,20 @@
+[package]
+name = "panic-pretty"
+version = "0.1.0"
+edition = "2021"
+authors = ["Your Name <you@example.com>"]
+license = "MIT"
+description = "Transform ugly panic stack traces into beautiful, readable output"
+repository = "https://github.com/yourusername/panic-pretty"
+
+[[bin]]
+name = "panic-pretty"
+path = "src/main.rs"
+
+[dependencies]
+clap = { version = "4.5", features = ["derive"] }
+colored = "2.1"
+regex = "1.10"
+anyhow = "1.0"
+
+[dev-dependencies]

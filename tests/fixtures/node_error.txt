@@ -1,0 +1,7 @@
+TypeError: Cannot read property 'name' of undefined
+    at processUser (/home/user/project/app.js:25:18)
+    at /home/user/project/app.js:42:5
+    at Layer.handle [as handle_request] (/home/user/project/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/user/project/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/user/project/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (node:internal/modules/cjs/loader:1159:14)
